@@ -4,6 +4,7 @@ Fullstack mini application based on:
 * Django + Django Restframework = as Backend of Application
 * React + Redux = as Front of Application
 * Webpack = as Generator of JavaScript file to work with React JS
+* SQLite3 = as Database of application
 
 ## Quick Start
 
@@ -21,10 +22,16 @@ npm run dev
 npm run build
 ```
 
+### Released functions
+```diff
++ connection to Database and fetching data from this
++ adding and remove Course information in database
+```
+
 ### Future
 ```bash
-* Adding authorization using Token
-* Adding managing Files to upload
-* Scaling to mini e-Shop application
-* Adding some functionals
+! Adding authorization using Token
+! Adding managing Files to upload
+! Scaling to mini e-Shop application
+! Adding some functionals
 ```
